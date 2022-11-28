@@ -1,6 +1,6 @@
-* VIM
+# VIM
 
-Let's start the journey.
+## General Information
 
 Vim has three modes:
 - Normal mode
@@ -9,29 +9,42 @@ Vim has three modes:
 
 - Visual mode (V)
 
-** Vimtutor
+## Learning resources
 
-** Distro Tube
+### Vimtutor
 
-** Ben Awad - Vim Tutorial
+### Distro Tube
+
+### Ben Awad - Vim Tutorial
 
 https://www.youtube.com/watch?v=IiwGbcd8S7I
-** ThePrimeagen
+
+### ThePrimeagen
 - Vim As Your Editor - Introduction (28.10.22)
 
+## Commands
 
+###  Move
 
-*** Move
 - hjkl - move left up down right
+
 - w: move to the beginning of the next word
-- W: move to the next letter after a space
+- W: move to the next letter after a space [W-will-skip-all-this-block-at.once,but(w)will,not]
 - b: move to the beginning of the previous word
+- B: same like W, but backwards
 - e: move to the end of the next word
+- E: same like W, and B, but for e
+
 - $: move to the end of the line
-- %: move to the end of the line.
 - 0: move to the beginning of the line
+
 - :<number>: [column followed by a number] go to that specific line
-- t + sign: go to next occurency of the sign
+
+- t + sign: go to the space before the next occurency of the sign
+- T: like t but backwards
+- f + sign: go to the next occurrency of a sign
+- F: like f but backwards
+
 - ;: semi-colon: to move to the next occurence of a t selection
 - % on a parentheses or a brace move to the other one
 - dd - delete a line
